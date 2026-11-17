@@ -1,0 +1,40 @@
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    nav .logo {
+        font-size: 20px;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .hero {
+        padding: 80px 20px 40px;
+    }
+
+    .hero h1 {
+        font-size: clamp(55px, 17vw, 110px);
+        line-height: 0.85;
+        letter-spacing: -4px;
+    }
+
+    .hero .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .hero .tag {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+}
